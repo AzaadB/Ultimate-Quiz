@@ -1,0 +1,130 @@
+.App {
+  background-color: blueviolet;
+  padding: 50px 10px;
+}
+
+.Content{
+  display: table;
+  max-width: 800px;
+  width: 100%;
+  margin: 0 auto;
+  background-color: cornsilk;
+  padding: 30px;
+}
+/*Styling the NavBar*/
+.navbar{
+  padding: 5px;
+  width: 550px;
+  margin: auto;
+  background-color: grey;
+  display: flex;
+  justify-content: space-between;
+  font-size: 5px;
+  text-decoration: none;
+  color: #fff;
+  }
+
+  .navbar a {
+    float: left;
+    font-size: 16px;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* The dropdown container */
+  .dropdown {
+    float: left;
+    overflow: hidden;
+  }
+  
+  /* Dropdown button */
+  .dropdown .dropbtn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+  
+  /* Add a red background color to navbar links on hover */
+  .navbar a:hover, .dropdown:hover .dropbtn {
+    background-color: red;
+  }
+  
+  
+  /* Links inside the dropdown */
+  .dropdown-content a {
+    float: none;
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+  /* Add a grey background color to dropdown links on hover */
+  .dropdown-content a:hover {
+    background-color: #ddd;
+  }
+  
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+
+  /*Styling the NewGame button*/
+  .NewGame{
+    background-color: rgb(4, 194, 4);
+    color: white;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    display: flex;
+  }
+
+  /*Styling the playAgain button*/
+  .playAgain{
+    background-color: purple;
+    color: white;
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 3px;
+    cursor: pointer;
+    text-align: center;
+    margin: auto;
+    display: flex;
+  }
+
+  /*Styling the container of the navbar*/
+  .Container{
+    width: 50px;
+    display: none;
+  }
+
+  /*Styling the image*/
+  img{
+    width: 100%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  /*Styling the headers*/
+  h1,
+  h2{
+    text-align: center;
+  }
+
+  /*Styling the paragraphs*/
+  p{
+    font-weight: bold;
+    font-size: 20px;
+  }

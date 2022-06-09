@@ -1,0 +1,36 @@
+/*Styling the Answer component*/
+.Answers{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+/*Styling the list of answers*/
+.Answers li{
+    padding: 10px;
+    border-left: 4px solid blue;
+    background-color: gold;
+    margin: 0 0 5px;
+}
+/*Styling the list of answers to change color when it is being hovered over*/
+.Answers li:hover{
+    cursor: pointer;
+    background-color: coral;
+}
+
+.Answers .correct
+.Answers .correct:hover{
+    background-color: green;
+    color: gold;
+    border-left: turquoise;
+}
+
+.Answers .incorrect
+.Answers .incorrect:hover{
+    background-color: red;
+    color: orangered;
+    border-left: turquoise;
+}
+/*Only displays correct or incorrect for one answer chosen*/
+.Answers[disabled]{
+    pointer-events: none;
+}
